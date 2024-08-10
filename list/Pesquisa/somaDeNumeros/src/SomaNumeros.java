@@ -2,11 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SomaNumeros {
-    private List<Integer> numeros;
-
-    public SomaNumeros() {
-        this.numeros = new ArrayList<>();
-    }
+    private List<Integer> numeros = new ArrayList<>();
 
     public void adicionarNumero(int numero) {
         this.numeros.add(numero);

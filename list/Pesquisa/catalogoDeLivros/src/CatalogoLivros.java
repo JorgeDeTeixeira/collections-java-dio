@@ -2,11 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CatalogoLivros {
-    private List<Livro> livros;
-
-    public CatalogoLivros() {
-        this.livros = new ArrayList<>();
-    }
+    private List<Livro> livros = new ArrayList<>();
 
     public void adicionarLivro(String nome, String autor, int anoPublicacao) {
         this.livros.add(new Livro(nome, autor, anoPublicacao));

@@ -2,11 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CarrinhoDeCompras {
-    private List<Item> items;
-
-    public CarrinhoDeCompras() {
-        this.items = new ArrayList<>();
-    }
+    private List<Item> items = new ArrayList<>();
 
     public void adicionarItem(String nome, Double preco, Integer quantidade) {
         items.add(new Item(nome, preco, quantidade));
